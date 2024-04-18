@@ -25,7 +25,7 @@ class ImageToPDFConverter :
         label = tk.Label(self.root,text="Enter output PDF name:")
         label.pack()
         
-        pdf_name_entry = tk.Entry(self.root, textvarible =self.output_pdf_name, width =40, justify='center')
+        pdf_name_entry =tk.Entry(self.root, textvarible =self.output_pdf_name, width =40, justify='center')
         pdf_name_entry.pack()
         
         converter_button = tk.Button(self.root, text="Converter to PDF", command=self.converter_images_to_pdf)
